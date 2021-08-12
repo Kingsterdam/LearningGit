@@ -1,0 +1,105 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+.bg-image{
+width:100%;
+background:url("image01.jpg");
+background-size:cover;
+height:100vh;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+
+
+
+
+.nav-bar{
+position:fixed;
+top:0;
+width:100%;
+display:flex;
+justify-content: space-between;
+align-items:center;
+background:rgba(0,0,0,0.8);
+height:50px;
+}
+
+
+
+.logo{
+color:#fff;
+font-weight:80px;
+font-style:bold;
+}
+
+.menu-list{
+margin-right:10px;
+}
+
+.menu-list ul{
+display:flex;
+}
+
+.menu-list ul li {
+margin:10px;
+list-style:none;
+}
+
+.menu-list ul li a{
+text-decoration:none;
+color:#fff;
+}
+.menu-list ul li a:hover{
+color:red;
+text-decoration:underline;
+}
+
+.center-item h1{
+color:white;
+margin:0;
+background:rgba(0,0,0,0.8);
+position:absolute;
+top:70%;
+left:50%;
+margin-right:-50%;
+transform:translate(-50%, -50%);
+}
+
+.btn{
+margin:0;
+position:absolute;
+font-weight:80px;
+color:white;
+top:80%;
+left:50%;
+margin-right:-50%;
+transform:translate(-50%, -50%);
+background-color:rgba(255,255,255,0.7);
+}
+
+.btn a{
+text-decoration:none;
+color:red;
+}
+
+.btn:hover{
+background-color:white;
+color:black;
+cursor:pointer;
+
+}
+
+.btn a:hover{
+background-color:white;
+color:black;
+cursor:pointer;
+}
+
+.center-item button{
+margin-top:10px;
+font-size:15px;
+padding:10px;
+}
+
